@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: white;
+  color: #04230F;
+}
+.banner {
+  background: url('img/fondo-patron.png') repeat;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 80px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.boton-click {
+  background-color: #1E5136;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.sobre-nosotros {
+  padding: 30px;
+  text-align: center;
+}
+.sobre-nosotros img {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+}
+.portafolio {
+  background-color: #043D1D;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.portafolio .galeria {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.portafolio img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+.portafolio p {
+  margin-top: 8px;
+}
+footer {
+  background-color: #1E5136;
+  padding: 15px;
+  text-align: center;
+}
+footer img {
+  width: 30px;
+  margin: 0 10px;
+}
+.formulario-contacto {
+  max-width: 400px;
+  margin: 60px auto;
+  background-color: #043D1D;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+.formulario-contacto input,
+.formulario-contacto textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.formulario-contacto button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+ background-image: url("img/fondo-patron.jpg");
+ background-repeat: repeat;
+ background-size: contain;
+ background-color: #31B64C; /* Verde base */
+ padding: 40px 20px;
+ display: flex;
+ justify-content: center;
+}
+.hero-content {
+ max-width: 1200px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.hero-logo {
+ max-width: 300px;
+ height: auto;
+}
+.hero-button {
+ background-color: #083F2D;
+ color: white;
+ padding: 12px 24px;
+ border-radius: 25px;
+ font-weight: 600;
+ text-decoration: none;
+ font-family: 'Montserrat', sans-serif;
+}
